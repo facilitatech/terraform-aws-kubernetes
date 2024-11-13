@@ -3,6 +3,10 @@ variable "aws_region" {
   default     = "eu-central-1"
 }
 
+variable "ami_id" {
+  description = "Image ID"
+}
+
 variable "cluster_name" {
   description = "Name of the AWS Kubernetes cluster - will be used to name all created resources"
 }
